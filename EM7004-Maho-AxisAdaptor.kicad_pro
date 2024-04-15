@@ -468,9 +468,9 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "EM7004-Maho-AxisAdaptor.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "EM7004-Maho-AxisAdaptor.wrl"
     },
     "page_layout_descr_file": ""
   },
