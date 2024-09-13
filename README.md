@@ -23,7 +23,7 @@ Keep in mind this adaptor is not suited for use with a standard [Heidenhain EXE 
 ## Online Preview / BOM / Schematic
 [Online BOM](https://htmlpreview.github.io/?https://raw.githubusercontent.com/PedPEx/EM7004-Maho-Philips-432/main/bom/webviewer-BOM.html)
 
-[PDF Schematic](https://raw.githubusercontent.com/PedPEx/EM7004-Maho-Philips-432/main/EM7004-Maho-AxisAdaptor.pdf)
+[PDF Schematic](https://github.com/PedPEx/EM7004-Maho-Philips-432/blob/main/EM7004-Maho-AxisAdaptor.pdf)
 
 
 ## Software part
