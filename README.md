@@ -1,7 +1,15 @@
-# EM7004-Maho-Philips-432 (WIP! - UNTESTED!)
+# EM7004-Maho-Philips-432 (ABORTED)
 Retrofit analog interface adaptor for Maho CNC machines with a Philips 432/10 controller for use with a [Beckhoff EM7004](https://www.beckhoff.com/de-de/produkte/i-o/ethercat-klemmen/el-elm7xxx-kompakte-antriebstechnik/em7004.html) 
 
 ![v0.9.2](pictures/EM7004-Maho-AxisAdaptor_v0.9.2.png "Blender render v0.9.2")
+
+## Archiving
+This project is being archived due to the EM7004 just having a 16 bit wide counter. With a travel-path of up to ~400 mm with a resolution of 1 µm a counter of at least 
+```math 
+n_{min} = \log_2 (\frac{400 mm}{1 \mu m}) = 18.61 bit \approx 19 bit 
+```
+The functionality of the rest of the PCB was not tested (BuckConverter is working). I'm sorry for everyone who had high hopes for this project or planned to use the finished product.
+
 
 ## Powering
 The board needs a seperate supply voltage input to power the Philips converter-board (similar to Heidenhain EXE) for the encoders. The 5 V regulator is based around a [Texas Instruments LM33630](https://www.ti.com/product/LMR33630) and onboard. The BuckConverter part is based on the design from this [repository](https://github.com/PedPEx/BuckConverter_Enable). I recommend the [Phoenix Contact - 1962600 - TFKC 2,5/ 2-ST-5,08](https://www.phoenixcontact.com/de-de/produkte/leiterplattenstecker-tfkc-25-2-st-508-1962600) connectors to simply daisy chain all EM7004 24 V power supply lines.
